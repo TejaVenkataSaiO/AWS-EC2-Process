@@ -1,0 +1,23 @@
+After creating EC2 linux in AWS Management Console and select newly created ec2 and connect to linux :
+---------------------------------------------------
+
+After connecting to linux 
+The following commands follow :-
+-----------------------------------
+sudo -i
+
+yum install httpd
+
+systemctl start httpd
+
+systemctl enable httpd
+
+echo "<h1> Server 1 </h1>" > /var/www/html/index.html
+
+Systemctl start httpd
+
+-------------------------------------------
+After completing this commands execution then copy public IP address of EC2 and paste it in new tab then
+you can see the name called Server 1
+
+Ended..!
